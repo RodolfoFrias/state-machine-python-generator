@@ -44,7 +44,7 @@ html(lang="en")
                                     .col-lg-10.pt-3.right
                                         svg.pointer(version='1.1' xmlns='http://www.w3.org/2000/svg' width='80' height='50' viewBox='0 0 120 100')
                                             rect(x='10' y='10' width='80' height='50' rx='20' ry='20' fill='grey')
-                    .col-lg-10
+                    #sheet.col-lg-10.bg-light.shadow
                         //- svg.draggable(version='1.1' xmlns='http://www.w3.org/2000/svg' width='120' height='100' viewBox='0 0 120 100')
                         //-     rect(x='10' y='10' width='100' height='80' fill='RoyalBlue')
                         //- svg.draggable(version='1.1' xmlns='http://www.w3.org/2000/svg' width='120' height='100' viewBox='0 0 120 100')
@@ -60,8 +60,8 @@ html(lang="en")
         script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q' crossorigin='anonymous')
         script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js' integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN' crossorigin='anonymous')
         script(src="/plugins/draggable/plain-draggable.min.js")
-        script(src="/assets/js/dashboard.js")
-        script(src="/js/drag.js")
+        script(src="/assets/js/main.js")
+        script(src="/assets/js/drag.js")
         script.
            
             $("#menu-toggle").click(function(e) {

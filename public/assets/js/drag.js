@@ -1,6 +1,6 @@
 'use strict';
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('entityCreated', () => {
     const drags = document.querySelectorAll('.draggable');
 
     drags.forEach(element => {
