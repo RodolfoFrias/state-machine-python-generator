@@ -1,0 +1,14 @@
+body{
+  background: #497BBF;
+}
+#form_content {
+  margin-top: 15vh; }
+  #form_content img {
+    margin-bottom: 5%; }
+
+#forgotPassword{
+  margin-top: 5% !important;
+  text-decoration: none;
+  color:black;
+}
+  

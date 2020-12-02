@@ -1,0 +1,23 @@
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 100vh;
+}
+main{
+  position: relative;
+}
+
+.right{
+  text-align: right;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.footer{
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: lightgrey;
+}

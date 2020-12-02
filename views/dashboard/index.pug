@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge")
+        link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' crossorigin='anonymous')
+        link(rel="stylesheet" href="/assets/css/dashboard.css")
+        link(rel="stylesheet", href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css")
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+        title Dashboard
+    body
+        main
+            .container-fluid(style="height: 100vh")
+                .row
+                    .col-lg-2(style="height: 100vh").bg-light.p-3
+                        h5 State machine python generator
+                        ul.list-group.mt-3
+                            li.list-group-item.disabled(aria-disabled='true')
+                                .row
+                                    .col-lg-2.align-items-center.p-3
+                                        span(style="margin-top: 10%") Estado
+                                    .col-lg-10.pt-3.right
+                                        svg.pointer(version='1.1' xmlns='http://www.w3.org/2000/svg' width='80' height='50' viewBox='0 0 120 100')
+                                            rect(x='10' y='10' width='80' height='50' rx='20' ry='20' fill='grey')
+                            li.list-group-item.disabled(aria-disabled='true')
+                                .row
+                                    .col-lg-2.align-items-center.p-3
+                                        span(style="margin-top: 10%") Estado
+                                    .col-lg-10.pt-3.right
+                                        svg.pointer(version='1.1' xmlns='http://www.w3.org/2000/svg' width='80' height='50' viewBox='0 0 120 100')
+                                            rect(x='10' y='10' width='80' height='50' rx='20' ry='20' fill='grey')
+                            li.list-group-item.disabled(aria-disabled='true')
+                                .row
+                                    .col-lg-2.align-items-center.p-3
+                                        span(style="margin-top: 10%") Estado
+                                    .col-lg-10.pt-3.right
+                                        svg.pointer(version='1.1' xmlns='http://www.w3.org/2000/svg' width='80' height='50' viewBox='0 0 120 100')
+                                            rect(x='10' y='10' width='80' height='50' rx='20' ry='20' fill='grey')
+                            li.list-group-item.disabled(aria-disabled='true')
+                                .row
+                                    .col-lg-2.align-items-center.p-3
+                                        span(style="margin-top: 10%") Estado
+                                    .col-lg-10.pt-3.right
+                                        svg.pointer(version='1.1' xmlns='http://www.w3.org/2000/svg' width='80' height='50' viewBox='0 0 120 100')
+                                            rect(x='10' y='10' width='80' height='50' rx='20' ry='20' fill='grey')
+                    .col-lg-10
+                        //- svg.draggable(version='1.1' xmlns='http://www.w3.org/2000/svg' width='120' height='100' viewBox='0 0 120 100')
+                        //-     rect(x='10' y='10' width='100' height='80' fill='RoyalBlue')
+                        //- svg.draggable(version='1.1' xmlns='http://www.w3.org/2000/svg' width='120' height='100' viewBox='0 0 120 100')
+                        //-     rect(x='10' y='10' width='100' height='80' rx='20' ry='20' fill='RoyalBlue')
+                        //- svg.draggable(version='1.1' xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120')
+                        //-     circle(cx='60' cy='60' r='50' fill='RoyalBlue')
+                        //- svg.draggable(version='1.1' xmlns='http://www.w3.org/2000/svg' width='130' height='80' viewBox='0 0 130 80')
+                        //-     line(x1='10' y1='10' x2='120' y2='70' stroke-width='3' stroke='RoyalBlue')
+            footer
+                .footer.text-center
+                    p By Rodolfo Frias
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl' crossorigin='anonymous')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q' crossorigin='anonymous')
+        script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js' integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN' crossorigin='anonymous')
+        script(src="/plugins/draggable/plain-draggable.min.js")
+        script(src="/assets/js/dashboard.js")
+        script(src="/js/drag.js")
+        script.
+           
+            $("#menu-toggle").click(function(e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
